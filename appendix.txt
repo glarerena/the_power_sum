@@ -1,0 +1,18 @@
+Rena Glare
+WK9D2 Recursion
+
+I used the Hackers Realm Youtube Walkthrough video for this challenge.
+
+The Power Sum Function counts how many ways we can express a number as the sum of unique numbers raised to the power.
+
+It takes X & N as parameters.
+
+The helper function takes total, power, and num_present as parameters.
+Total = how much of X
+Power = is it squared or cubed
+num_present = the current number we are using 
+
+If total becomes zero it means its working. 
+If it goes below zero we have went to far.
+
+The function calls itself to explore different outcomes.
